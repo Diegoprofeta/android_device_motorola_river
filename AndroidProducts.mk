@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_river.mk
+    $(LOCAL_DIR)/aosp_river.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_river-eng \
-    arrow_river-user \
-    arrow_river-userdebug
+    aosp_river-eng \
+    aosp_river-user \
+    aosp_river-userdebug
