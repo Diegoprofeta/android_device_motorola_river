@@ -25,6 +25,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Inherit from river device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# ArrowOS Maintainer
+DEVICE_MAINTAINER := Deivid Ignacio
+
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := river
 PRODUCT_MANUFACTURER := motorola
